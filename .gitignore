@@ -44,3 +44,5 @@ Thumbs.db
 node_modules/
 
 __pycache__/
+examples/ESP32_MultipleSensors/idf_component.yml
+compile_commands.json

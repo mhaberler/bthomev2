@@ -226,9 +226,9 @@ class BThomeV2 {
 };
 
 // Platform-specific device class
-#if defined(ESP32)
+#if 1  //defined(ESP32)
 
-#include <ArduinoBLE.h>
+#include <BLEDevice.h>
 
 // Forward declaration for integrated BTHomeV2 encoding library
 class BtHomeV2Device;
